@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Travel Explorer</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search recommendations...">
+                <button onclick="searchRecommendations()">Search</button>
+                <button onclick="resetSearch()">Reset</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h1>Explore the World</h1>
+                <p>Your ultimate guide to travel recommendations.</p>
+            </div>
+        </section>
+        <section id="recommendations"></section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Travel Explorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
